@@ -11,16 +11,18 @@ npm install fastify-curl --save
 
 ## usage
 
+详见[example][./example]
+
 ```javascript
 const fastify = require('fastify')()
-
+const curl = require('fastify-curl')
 const config = {
   // ...详细信息见下方
 }
 app.register(curl, config)
 
 // Declare a route
-fastify.get('/', function(request, reply) {
+fastify.get('/', async function(request, reply) {
   const option = {
     // ...详细信息见下方
   }
