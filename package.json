@@ -1,0 +1,23 @@
+{
+  "name": "fastify-curl",
+  "version": "1.0.0",
+  "description": "httpRequest for fastify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "weijianli",
+  "license": "ISC",
+  "dependencies": {
+    "agentkeepalive": "^3.4.1",
+    "humanize-ms": "^1.2.1",
+    "urllib": "^2.27.0"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "devDependencies": {
+    "fastify": "^1.2.0"
+  }
+}
