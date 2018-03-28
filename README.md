@@ -11,7 +11,7 @@ npm install fastify-curl --save
 
 ## usage
 
-详见[example][./example]
+详见[example](./example)
 
 ```javascript
 const fastify = require('fastify')()
