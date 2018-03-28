@@ -1,6 +1,6 @@
 {
   "name": "fastify-curl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "httpRequest for fastify",
   "main": "index.js",
   "scripts": {
